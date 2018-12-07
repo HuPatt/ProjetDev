@@ -43,18 +43,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChambreFroide.cs" />
     <Compile Include="Chef.cs" />
     <Compile Include="ChefRang.cs" />
     <Compile Include="Client.cs" />
+    <Compile Include="Commande.cs" />
     <Compile Include="CommisCuisine.cs" />
     <Compile Include="CommisSalle.cs" />
+    <Compile Include="ComptoirCmdesPrep.cs" />
+    <Compile Include="ComptoirPlatsSales.cs" />
+    <Compile Include="Congelateur.cs" />
     <Compile Include="Cuisinier.cs" />
+    <Compile Include="Dessert.cs" />
     <Compile Include="Employe.cs" />
+    <Compile Include="Entree.cs" />
+    <Compile Include="EtagereSalle.cs" />
+    <Compile Include="ListeCommande.cs" />
     <Compile Include="MaitreHotel.cs" />
+    <Compile Include="Materiel.cs" />
+    <Compile Include="Plat.cs" />
     <Compile Include="Plongeur.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recette.cs" />
+    <Compile Include="Reserve.cs" />
+    <Compile Include="SalleRestaurant.cs" />
     <Compile Include="Serveur.cs" />
+    <Compile Include="Table.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
