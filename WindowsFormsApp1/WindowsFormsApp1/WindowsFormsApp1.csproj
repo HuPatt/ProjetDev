@@ -78,7 +78,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Floor.png" />
@@ -88,6 +90,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\mur1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grandetable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tablecuisine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\four.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reserve.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passeplat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\petitetable.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grandetable1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personnage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waiter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\porte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\commis_cuisine.png" />
+    <None Include="Resources\plongeur.png" />
+    <None Include="Resources\cuisinier.png" />
+    <None Include="Resources\commissalle.png" />
+    <None Include="Resources\chefcuisine.png" />
+    <Content Include="Resources\maitrehotel.png" />
+    <None Include="Resources\waiter5.png" />
+    <None Include="Resources\waiter2.png" />
+    <None Include="Resources\waiter1.png" />
+    <None Include="Resources\maitrehotel1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
