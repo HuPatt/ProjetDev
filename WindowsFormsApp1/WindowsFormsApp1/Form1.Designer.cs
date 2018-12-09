@@ -1190,6 +1190,7 @@
             this.pictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox40.TabIndex = 42;
             this.pictureBox40.TabStop = false;
+            this.pictureBox40.Click += new System.EventHandler(this.pictureBox40_Click);
             // 
             // pictureBox41
             // 
