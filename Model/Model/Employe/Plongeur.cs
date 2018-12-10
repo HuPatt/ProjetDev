@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    class Chef
+    public class Plongeur
     {
-        int id_employe;
-        String type;
-        Boolean disponible;
+        int id_employe {get; set;}
+        String type {get; set;}
+        Boolean disponible {get; set;}
 
-        public Chef(int id_employe, string type, Boolean disponible)
+        public Plongeur(int id_employe, string type, bool disponible)
         {
             this.id_employe = id_employe;
             this.type = type;
             this.disponible = disponible;
-            Console.WriteLine("Je suis " + type);
+            Console.WriteLine("Nouveau " + type + " créé(e)");
             Console.ReadKey();
         }
     }
