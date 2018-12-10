@@ -22,7 +22,7 @@ namespace Model
                 case "Soupe à la tomate":
                     tp_prep = 900000;
                     categorie = "entree";
-                break;
+                    break;
                 case "Salade de cesar":
                     tp_prep = 300000;
                     categorie = "entree";

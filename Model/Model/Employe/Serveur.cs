@@ -8,9 +8,9 @@ namespace Model
 {
     public class Serveur
     {
-        int id_employe {get; set;}
-        String type {get; set;}
-        Boolean disponible {get; set;}
+        public int id_employe {get; set;}
+        public string type {get; set;}
+        public Boolean disponible {get; set;}
 
         public Serveur(int id_employe, string type, Boolean disponible)
         {
@@ -21,19 +21,38 @@ namespace Model
             Console.ReadKey();
         }
 
-        public void Servir(Client client)
+
+        public void ComptoirCmdesPrep(Commande commande, Serveur serveur, Client client)
+        {
+            if (serveur.disponible == true)
+            {
+                serveur.Servir(client, commande);
+                Console.WriteLine("La commande suivante a été envoyé : " + commande.id_commande);
+                Console.ReadKey();
+                serveur.disponible = false;
+            }
+            else
+            {
+                Console.WriteLine("Le serveur demandé n'est pas disponible");
+                Console.ReadKey();
+                //System.Threading.Thread.Sleep(50000);
+                ComptoirCmdesPrep(commande, serveur, client);
+            }
+        }
+
+        public void Servir(Client client, Commande commande)
         {
             //mettre dans le constructeur un objet PREPARATION DU CUISINIER qui possède un type (plat, entree, dessert)
-            switch (type)
+            switch (commande.recette.categorie)
             {
                 case "entree":
-                    client.Manger(150000);
+                    client.Manger(1000);
                     break;
                 case "plat":
-                    client.Manger(250000);
+                    client.Manger(2000);
                     break;
                 case "dessert":
-                    client.Manger(150000);
+                    client.Manger(3000);
                     break;
             }
         }

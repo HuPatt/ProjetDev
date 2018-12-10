@@ -11,6 +11,7 @@ namespace Model
         public int id_commande { get; set; }
         public Recette recette;
         public Client client;
+        public Serveur serveur;
         /* public List<string> listeCommandes = new List<string>();*/
         public static string[,] listCommandes = new string[10, 3];
         private int i;

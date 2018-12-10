@@ -9,7 +9,7 @@ namespace Model
     public class Cuisinier
     {
         int id_employe {get; set;}
-        String type {get; set;}
+        string type {get; set;}
         Boolean disponible {get; set;}
         //Commande commande;
 
@@ -35,14 +35,15 @@ namespace Model
 
         }
 
-        public void preparerCommande(Commande commande)
+        public void preparerCommande(Commande commande, CommisCuisine commisCuisine)
         {
             //récupérer la recette concernée par la commande
             //mettre dans la variable a le temps de préparation de cette commande
             //décrémenté les ingrédients
-
-            Console.WriteLine(commande.recette.tp_prep);
+            
+            Console.WriteLine("Le cuisinier va travailler pendant : " + commande.recette.tp_prep);
             Console.ReadKey();
+            commisCuisine.ApporterCommande(commande);
             //System.Threading.Thread.Sleep(commande.recette.tp_prep);
         }
 

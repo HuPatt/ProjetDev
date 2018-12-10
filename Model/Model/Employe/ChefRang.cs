@@ -9,7 +9,7 @@ namespace Model
     public class ChefRang
     {
         int id_employe {get; set;}
-        String type {get; set;}
+        string type {get; set;}
         Boolean disponible {get; set;}
         Commande commande;
 

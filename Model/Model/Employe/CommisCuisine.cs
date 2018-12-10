@@ -8,9 +8,11 @@ namespace Model
 {
     public class CommisCuisine
     {
-        int id_employe {get; set;}
-        String type {get; set;}
-        Boolean disponible {get; set;}
+        public int id_employe {get; set;}
+        public string type {get; set;}
+        public Boolean disponible {get; set; }
+
+        //Serveur Ludo = new Serveur(20, "serveur", true);
 
         public CommisCuisine(int id_employe, string type, Boolean disponible)
         {
@@ -19,6 +21,17 @@ namespace Model
             this.disponible = disponible;
             Console.WriteLine("Nouveau " + type + " créé(e)");
             Console.ReadKey();
+        }
+
+        
+
+        public void ApporterCommande(Commande commande)
+        {
+            Console.WriteLine("Le commis apporte la commande : " + commande.client.nom);
+            Console.ReadKey();
+
+            //ComptoirCmdesPrep comptoir = new ComptoirCmdesPrep(commande, commande.serveur, commande.client);
+            Ludo.ComptoirCmdesPrep(commande, Ludo, commande.client);
         }
     }
 }
