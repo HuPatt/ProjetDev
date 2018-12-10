@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BABC0CD3-AEE7-479D-A4DB-018EB0A35624}</ProjectGuid>
+    <ProjectGuid>{1267FBCA-10D3-4341-A856-FC70366756C0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>WindowsFormsApp1</RootNamespace>
     <AssemblyName>WindowsFormsApp1</AssemblyName>
@@ -65,7 +65,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,63 +77,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config">
-      <SubType>Designer</SubType>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Floor.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\mur.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\mur1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\grandetable.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Tablecuisine.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\four.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\eau.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\reserve.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\passeplat.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\petitetable.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\grandetable1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\personnage.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\waiter.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\porte.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\commis_cuisine.png" />
-    <None Include="Resources\plongeur.png" />
-    <None Include="Resources\cuisinier.png" />
-    <None Include="Resources\commissalle.png" />
-    <None Include="Resources\chefcuisine.png" />
-    <Content Include="Resources\maitrehotel.png" />
-    <None Include="Resources\waiter5.png" />
-    <None Include="Resources\waiter2.png" />
-    <None Include="Resources\waiter1.png" />
-    <None Include="Resources\maitrehotel1.png" />
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
