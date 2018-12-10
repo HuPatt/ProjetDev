@@ -11,12 +11,34 @@ namespace WindowsFormsApp1
         /// <summary>
         /// Point d'entrée principal de l'application.
         /// </summary>
+        /// 
         [STAThread]
         static void Main()
         {
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+
+            
         }
+
+        /*class test
+        {
+            string recuperer;
+
+            public test(string recuperer)
+            {
+                this.recuperer = recuperer;
+            }
+
+            public void recuptextbox()
+            {
+                System.Console.WriteLine(recuperer);
+                Console.Read();
+
+            }
+        }*/
     }
-}
+    }
+
