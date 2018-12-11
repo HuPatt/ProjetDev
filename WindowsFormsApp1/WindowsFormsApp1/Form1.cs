@@ -80,45 +80,45 @@ namespace WindowsFormsApp1
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button4_Click_1(object sender, EventArgs e)
         {
-            timer1.Start();
-            timer1.Interval = 1000;
+            timer2.Start();
+            timer2.Interval = 1000;
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
-            timer1.Start();
-            timer1.Interval = 10;
+            timer2.Start();
+            timer2.Interval = 10;
         }
 
         int sec = 0;
         int min = 0;
         int hour = 0;
-        private void timer1_Tick(object sender, EventArgs e)
+        private void timer2_Tick_1(object sender, EventArgs e)
         {
             sec++;
-            textBox1.Text = ""+ sec +" sec";
-            textBox2.Text = ""+ min +" min";
-            textBox3.Text = "" + hour +" hour";
+            textBox58.Text = ""+ sec +" sec";
+            textBox57.Text = ""+ min +" min";
+            textBox56.Text = "" + hour +" hour";
             if (sec>59)
             {
                 sec = 0;
                 min++;
-                textBox2.Text = "" + min;
+                textBox57.Text = "" + min;
             }
 
             else if (min >59)
             {
                 min = 0;
                 hour++;
-                textBox3.Text = "" + hour;
+                textBox56.Text = "" + hour;
             }
 
-            else if(hour==1)
+            else if(hour==7)
             {
-                ///timer1.Stop();
-                ///MessageBox.Show("Time is over");
+                timer2.Stop();
+                MessageBox.Show("Une journée de travail à été simmulé");
             }
         }
 
@@ -137,9 +137,9 @@ namespace WindowsFormsApp1
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button6_Click(object sender, EventArgs e)
         {
-            timer1.Stop();
+            timer2.Stop();
         }
 
         private void textBox30_TextChanged(object sender, EventArgs e)
@@ -161,5 +161,62 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void pictureBox68_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label32_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label40_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label43_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel2_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label49_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label61_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox57_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox56_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox58_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }

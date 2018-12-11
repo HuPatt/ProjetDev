@@ -83,5 +83,35 @@
   <ItemGroup>
     <None Include="Resources\Floor.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mur1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tablecuisine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\four.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passeplat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\petitetable.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grandetable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\porte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reserve.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
