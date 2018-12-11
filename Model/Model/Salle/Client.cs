@@ -27,9 +27,9 @@ namespace Model
             
         }
 
-        public void Manger(int a)
+        public void Manger(int a, Client client)
         {
-            Console.WriteLine("Je suis client et je mange pendant : " + a);
+            Console.WriteLine("Je suis "+ client.nom + " et je mange pendant : " + a);
             Console.ReadKey();
             System.Threading.Thread.Sleep(a);
         }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,12 +23,12 @@ namespace Model
         }
 
 
-        public void ComptoirCmdesPrep(Commande commande, Serveur serveur, Client client)
+        public void recupComptoirCmdesPrep(Commande commande, Serveur serveur, Client client)
         {
             if (serveur.disponible == true)
             {
-                serveur.Servir(client, commande);
-                Console.WriteLine("La commande suivante a été envoyé : " + commande.id_commande);
+                serveur.Servir(client, commande, serveur);
+                Console.WriteLine("Cette commande a été envoyé : " + commande.id_commande);
                 Console.ReadKey();
                 serveur.disponible = false;
             }
@@ -36,23 +37,23 @@ namespace Model
                 Console.WriteLine("Le serveur demandé n'est pas disponible");
                 Console.ReadKey();
                 //System.Threading.Thread.Sleep(50000);
-                ComptoirCmdesPrep(commande, serveur, client);
+                recupComptoirCmdesPrep(commande, serveur, client);
             }
         }
 
-        public void Servir(Client client, Commande commande)
+        public void Servir(Client client, Commande commande, Serveur serveur)
         {
             //mettre dans le constructeur un objet PREPARATION DU CUISINIER qui possède un type (plat, entree, dessert)
             switch (commande.recette.categorie)
             {
                 case "entree":
-                    client.Manger(1000);
+                    client.Manger(1000, client);
                     break;
                 case "plat":
-                    client.Manger(2000);
+                    client.Manger(2000, client);
                     break;
                 case "dessert":
-                    client.Manger(3000);
+                    client.Manger(3000, client);
                     break;
             }
         }

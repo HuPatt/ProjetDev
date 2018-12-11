@@ -36,11 +36,16 @@ namespace Model
                 Console.ReadKey();*/
                 Console.WriteLine("Je suis le chef et je récupère : " + Commande.listCommandes[0, 0] + " " + Commande.listCommandes[0, 1] + " " + Commande.listCommandes[0, 2]);
                 Console.ReadKey();
+
+                Console.WriteLine("Je suis le chef et la prochaine commande est : " + Commande.listCommandes[1, 0] + " " + Commande.listCommandes[1, 1] + " " + Commande.listCommandes[1, 2]);
+                Console.ReadKey();
+
                 //Commande.listCommandes[0, 0];
                 //Cuisinier cuisinier;
                 //cuisinier.prendreOrdres(listCommandes);
                 //donnerOrdres();
 
+                /*
                 for (int i = 0; i <= 10; i++)
                 {
                         Commande.listCommandes[i, 0] = Commande.listCommandes[i+1, 0];
@@ -48,18 +53,29 @@ namespace Model
                         Commande.listCommandes[i, 2] = Commande.listCommandes[i+1, 2];
                         i = 10;
                 }
+                */
+
+                for (int i = 0; i < 10; i++)
+                {
+                    if (i < 9)
+                    {
+                        Commande.listCommandes[i, 0] = Commande.listCommandes[i + 1, 0];
+                        Commande.listCommandes[i, 1] = Commande.listCommandes[i + 1, 1];
+                        Commande.listCommandes[i, 2] = Commande.listCommandes[i + 1, 2];
+                    }
+                    else
+                    {
+                        Commande.listCommandes[i, 0] = "";
+                        Commande.listCommandes[i, 1] = "";
+                        Commande.listCommandes[i, 2] = "";
+                    }
+                }
 
                 /*Commande.listCommandes[0, 0] = Commande.listCommandes[1, 0];
                 Commande.listCommandes[0, 1] = Commande.listCommandes[1, 1];
                 Commande.listCommandes[0, 2] = Commande.listCommandes[1, 2];*/
 
-                Console.WriteLine("Je suis le chef et la prochaine commande est : " + Commande.listCommandes[0, 0] + " " + Commande.listCommandes[0, 1] + " " + Commande.listCommandes[0, 2]);
-                Console.ReadKey();
-
-            }
-            else
-            {
-                Console.WriteLine("Je suis le chef N°" + id_employe + " et je ne suis pas dispo" );
+                
             }
         }
 

@@ -8,24 +8,6 @@ namespace Model
 {
     public class SalleRestaurant
     {
-        /*static void Main(string[] args)
-        {
-            //Console.Write("Test"); 
-            CtRestaurant unRestaurant;
-
-            unRestaurant = new CtRestaurant();
-
-            unRestaurant.setCarre(2);
-            unRestaurant.setRang(4);
-            unRestaurant.setSalleRestauration(1);
-
-            Console.WriteLine("Le carre est : " + unRestaurant.getCarre() + "\n" + "Le rang est : " + unRestaurant.getRang());
-            Console.Read();
-        }*/
-    }
-
-    public class CtRestaurant
-    {
         //attributs
         private int id_rang;
         private int id_carre;

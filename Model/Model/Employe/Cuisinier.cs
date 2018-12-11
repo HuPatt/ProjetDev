@@ -44,7 +44,9 @@ namespace Model
             Console.WriteLine("Le cuisinier va travailler pendant : " + commande.recette.tp_prep);
             Console.ReadKey();
             commisCuisine.ApporterCommande(commande);
+
             //System.Threading.Thread.Sleep(commande.recette.tp_prep);
+
         }
 
     }
