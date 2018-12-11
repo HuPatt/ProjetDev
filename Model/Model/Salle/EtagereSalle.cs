@@ -9,7 +9,7 @@ namespace Model
 
     public class Etagere
     {
-        private static Etagere uneEtagere;
+        //private static Etagere uneEtagere;
 
         // attributs
         private int nbcarte;
@@ -64,12 +64,12 @@ namespace Model
             this.nbpain = nPain;
         }
 
-        private static void Main(string[] args)
+        /*private static void Main(string[] args)
         {
             // déclarer une référence sur l'objet
 
             // Créer un objet => constructeur généré par defaut
-            uneEtagere = new Etagere();
+           /* uneEtagere = new Etagere();
             uneEtagere.SetCarte(50);
             uneEtagere.SetEau(120);
             uneEtagere.SetPain(120);
@@ -89,7 +89,7 @@ namespace Model
                             Console.WriteLine(" L'élément situé à l'indice " + ind + " le nombre de carte : " + uneEtagere[ind].GetCarte() + ", le nombre de de l'eau : " + uneEtagere[ind].GetEau() + " et le nombre de pain : " + uneEtagere[ind].GetPain());
                         }
                       */
-            Console.WriteLine(
+            /*Console.WriteLine(
                 " le nombre de carte : " + uneEtagere.GetCarte() + ", le nombre de de l'eau : " + uneEtagere.GetEau()
                 + " et le nombre de pain : " + uneEtagere.GetPain());
 
@@ -100,7 +100,7 @@ namespace Model
                 " le nombre de carte : " + uneEtagere.GetCarte() + ", le nombre de de l'eau : " + uneEtagere.GetEau()
                 + " et le nombre de pain : " + uneEtagere.GetPain());
 
-            Console.Read();
-        }
+            Console.Read();*/
+        
     }
 }

@@ -8,7 +8,7 @@ namespace Model
 {
     public class SalleRestaurant
     {
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             //Console.Write("Test"); 
             CtRestaurant unRestaurant;
@@ -21,7 +21,7 @@ namespace Model
 
             Console.WriteLine("Le carre est : " + unRestaurant.getCarre() + "\n" + "Le rang est : " + unRestaurant.getRang());
             Console.Read();
-        }
+        }*/
     }
 
     public class CtRestaurant

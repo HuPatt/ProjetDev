@@ -41,10 +41,57 @@ namespace Model
              Mike.prendreOrdres();
 
              Mike.preparerCommande(commande, Ron);
-             
 
-             /*Sara.prendreCommandes(commande);
-             Sara.prendreCommandes(commande);*/
+
+            /*Sara.prendreCommandes(commande);
+            Sara.prendreCommandes(commande);*/
+            Etagere uneEtagere = new Etagere();
+            uneEtagere.SetCarte(50);
+            uneEtagere.SetEau(120);
+            uneEtagere.SetPain(120);
+
+            /*
+                        //créer un objet
+                        uneEtagere = new CtEtagere("les cartes", "de l'eau","les pains");
+            
+                        Console.WriteLine(" Les éléments de l'étagère sont " + uneEtagere.GetCarte() + ", " + uneEtagere.GetEau() + " et " + uneEtagere.GetPain());
+                      
+            
+                        CtEtagere[] uneEtagere;
+                        uneEtagere = new CtEtagere[1];
+                        uneEtagere[0] = new CtEtagere();
+                        for (int ind = 0; ind < uneEtagere.Length; ind++)
+                        {
+                            Console.WriteLine(" L'élément situé à l'indice " + ind + " le nombre de carte : " + uneEtagere[ind].GetCarte() + ", le nombre de de l'eau : " + uneEtagere[ind].GetEau() + " et le nombre de pain : " + uneEtagere[ind].GetPain());
+                        }
+                      */
+
+
+            Console.WriteLine(
+                " le nombre de carte : " + uneEtagere.GetCarte() + ", le nombre de de l'eau : " + uneEtagere.GetEau()
+                + " et le nombre de pain : " + uneEtagere.GetPain());
+
+            uneEtagere.DecremPain(2);
+            uneEtagere.decremCarte(5);
+            uneEtagere.decremEau(2);
+            Console.WriteLine(
+                " le nombre de carte : " + uneEtagere.GetCarte() + ", le nombre de de l'eau : " + uneEtagere.GetEau()
+                + " et le nombre de pain : " + uneEtagere.GetPain());
+
+            Console.Read();
+
+            /////////////////////////////////////////////////////
+
+            CtRestaurant unRestaurant;
+
+            unRestaurant = new CtRestaurant();
+
+            unRestaurant.setCarre(2);
+            unRestaurant.setRang(4);
+            unRestaurant.setSalleRestauration(1);
+
+            Console.WriteLine("Le carre est : " + unRestaurant.getCarre() + "\n" + "Le rang est : " + unRestaurant.getRang());
+            Console.Read();
         }
      
     }

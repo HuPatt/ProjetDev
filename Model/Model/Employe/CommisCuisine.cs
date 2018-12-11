@@ -31,7 +31,7 @@ namespace Model
             Console.ReadKey();
 
             //ComptoirCmdesPrep comptoir = new ComptoirCmdesPrep(commande, commande.serveur, commande.client);
-            Ludo.ComptoirCmdesPrep(commande, Ludo, commande.client);
+            //Ludo.ComptoirCmdesPrep(commande, Ludo, commande.client);
         }
     }
 }
