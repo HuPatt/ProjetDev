@@ -24,7 +24,7 @@ namespace Model
 
         public void Reserver(MaitreHotel maitreHotel)
         {
-            
+            =
         }
 
         public void Manger(int a, Client client)

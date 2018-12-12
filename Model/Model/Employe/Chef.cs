@@ -8,6 +8,7 @@ namespace Model
 {
     public class Chef
     {
+        
         int id_employe {get; set;}
         String type {get; set;}
         Boolean disponible {get; set;}
