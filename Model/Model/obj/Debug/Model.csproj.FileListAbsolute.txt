@@ -1,0 +1,7 @@
+C:\Users\Patricia HU\Documents\GitHub\ProjetDev\Model\Model\bin\Debug\Model.exe.config
+C:\Users\Patricia HU\Documents\GitHub\ProjetDev\Model\Model\bin\Debug\Model.exe
+C:\Users\Patricia HU\Documents\GitHub\ProjetDev\Model\Model\bin\Debug\Model.pdb
+C:\Users\Patricia HU\Documents\GitHub\ProjetDev\Model\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\Patricia HU\Documents\GitHub\ProjetDev\Model\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Patricia HU\Documents\GitHub\ProjetDev\Model\Model\obj\Debug\Model.exe
+C:\Users\Patricia HU\Documents\GitHub\ProjetDev\Model\Model\obj\Debug\Model.pdb
