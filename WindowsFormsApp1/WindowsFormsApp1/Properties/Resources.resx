@@ -118,37 +118,61 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="mur1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mur1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="porte" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\porte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="four" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\four.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="eau" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Floor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Floor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="passeplat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\passeplat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="grandetable" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grandetable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="petitetable" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\petitetable.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="waiter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waiter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="passeplat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\passeplat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Tablecuisine" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tablecuisine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mur1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mur1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mur" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="maitrehotel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maitrehotel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="four" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\four.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plongeur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plongeur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="porte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\porte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="waiter5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waiter5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chefcuisine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chefcuisine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Floor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Floor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tablecuisine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tablecuisine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="commissalle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\commissalle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="petitetable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\petitetable.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="reserve" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\reserve.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cuisinier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cuisinier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="commis_cuisine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\commis_cuisine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

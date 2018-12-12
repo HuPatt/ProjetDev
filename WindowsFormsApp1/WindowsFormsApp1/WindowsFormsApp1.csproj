@@ -113,5 +113,29 @@
   <ItemGroup>
     <None Include="Resources\reserve.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waiter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maitrehotel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waiter5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\commissalle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chefcuisine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plongeur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuisinier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\commis_cuisine.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

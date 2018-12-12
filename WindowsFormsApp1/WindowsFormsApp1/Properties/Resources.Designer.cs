@@ -63,6 +63,46 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap chefcuisine {
+            get {
+                object obj = ResourceManager.GetObject("chefcuisine", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap commis_cuisine {
+            get {
+                object obj = ResourceManager.GetObject("commis_cuisine", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap commissalle {
+            get {
+                object obj = ResourceManager.GetObject("commissalle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cuisinier {
+            get {
+                object obj = ResourceManager.GetObject("cuisinier", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap eau {
             get {
                 object obj = ResourceManager.GetObject("eau", resourceCulture);
@@ -96,6 +136,16 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap grandetable {
             get {
                 object obj = ResourceManager.GetObject("grandetable", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap maitrehotel {
+            get {
+                object obj = ResourceManager.GetObject("maitrehotel", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,6 +193,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap plongeur {
+            get {
+                object obj = ResourceManager.GetObject("plongeur", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap porte {
             get {
                 object obj = ResourceManager.GetObject("porte", resourceCulture);
@@ -166,6 +226,26 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap Tablecuisine {
             get {
                 object obj = ResourceManager.GetObject("Tablecuisine", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap waiter {
+            get {
+                object obj = ResourceManager.GetObject("waiter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap waiter5 {
+            get {
+                object obj = ResourceManager.GetObject("waiter5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

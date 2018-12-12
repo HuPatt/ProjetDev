@@ -89,7 +89,9 @@ namespace WindowsFormsApp1
         private void button5_Click(object sender, EventArgs e)
         {
             timer2.Start();
-            timer2.Interval = 10;
+            string valeur_simulation = textBox63.Text;
+            int int_simulation = Convert.ToInt32(valeur_simulation);
+            timer2.Interval = int_simulation;
         }
 
         int sec = 0;
@@ -217,6 +219,9 @@ namespace WindowsFormsApp1
 
         }
 
-        
+        private void pictureBox78_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
